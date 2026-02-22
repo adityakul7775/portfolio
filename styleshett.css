@@ -1,0 +1,61 @@
+body {
+    background-image: url(images.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    margin: 10px;
+}
+.logo{
+    justify-content:end;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    color: white;
+}
+.nav_links {
+    display:flex;
+    gap: 25px;
+    list-style: none;
+    color:white;
+    
+}
+.Mai_part{
+animation: move 2s infinite alternate;
+text-align: center;
+font-size: 50px;
+margin-top: 100px;
+color: rgb(0, 176, 246);
+font-family: 'Times New Roman', Times, serif;
+}
+
+@keyframes move{
+    from{transform: translateY(0px);}
+        to{transform: translateY(20px); }
+        
+    }
+
+.BMP{
+    text-align: center;
+    margin-top:0px;
+    color: white;
+}
+.nav_links a
+.nav_links a:link,
+.nav_links a:visited,
+.nav_links a:active{
+    color:white;
+    text-decoration: none;
+}
+.nav_links a:hover{
+    color:rgb(246, 65, 20)
+}
+.AB{
+   color:white
+
+}
+.para{
+    color: white;
+}
