@@ -6,6 +6,7 @@ body {
     margin: 10px;
 }
 .logo{
+    font-size: xx-large;
     justify-content:end;
     color: white;
 }
@@ -16,6 +17,7 @@ body {
     color: white;
 }
 .nav_links {
+    font-size: x-large;
     display:flex;
     gap: 25px;
     list-style: none;
@@ -38,6 +40,7 @@ font-family: 'Times New Roman', Times, serif;
     }
 
 .BMP{
+    font-size: larger;
     text-align: center;
     margin-top:0px;
     color: white;
@@ -57,12 +60,13 @@ font-family: 'Times New Roman', Times, serif;
 
 }
 .para{
+    font-size:25px;
     color: white;
 }
-.T{
-    color: whites;
+.T{font-size: 25px;
+    color:white;
 }
-.S{
+.S{font-size: 25px;
     color: white;
 }
 html{
@@ -83,4 +87,59 @@ button :hover{
 section{
     padding: 80px 20px;
     border-bottom: 1px solid #eee;
+}
+.PR{
+    font-size: 35px;
+    color: white;
+}
+.PR1{
+    margin-top: 80px;
+    color: white;
+}
+.PR2{
+    padding-left: 50px;
+    font-size: larger;
+    color: red;
+}
+.PR3{
+    font-size: 20px;
+    color: white;
+}
+.PR2:hover{
+    color:rgb(58, 20, 246)
+}
+.project-images img {
+  width: 500px;    
+  height: auto;     
+  border-radius: 10px;
+}
+.project-images {
+  display: flex;
+  gap: 15px;              /* space between images */
+  justify-content: center;
+  flex-wrap: wrap;        /* go to next line on small screen */
+}
+.project-images img:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.cont{
+    max-width: 1200px;
+    margin: auto;
+    padding:20px;
+}
+.PTR{
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 2 equal parts */
+  gap: 30px;
+}
+.nav_links{
+    margin-top: 20px;
+}
+.btn-outline {
+  border: 2px solid #eff7f5;
+  color: #f1f1f1;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
 }
