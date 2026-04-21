@@ -1,35 +1,25 @@
 body {
     background-image: url(images.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
     margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: Arial;
 }
 
-/* CONTAINER */
 .cont {
     max-width: 1200px;
     margin: auto;
     padding: 20px;
 }
 
-/* NAVBAR */
 .navbar {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-    color: white;
-    flex-wrap: wrap;
 }
 
-/* NAV LINKS */
 .nav_links {
     display: flex;
     gap: 20px;
     list-style: none;
-    flex-wrap: wrap;
-    padding: 0;
 }
 
 .nav_links a {
@@ -37,208 +27,64 @@ body {
     text-decoration: none;
 }
 
-.nav_links a:hover {
-    color: rgb(246, 65, 20);
-}
-
-/* HERO */
 .Mai_part {
     text-align: center;
     font-size: 50px;
-    margin-top: 80px;
-    color: rgb(0, 176, 246);
+    color: cyan;
 }
 
 .BMP {
     text-align: center;
     color: white;
-    font-size: 18px;
 }
 
-/* SECTION */
-section {
-    padding: 60px 20px;
-}
-
-/* BUTTON */
 .btn-outline {
-    border: 2px solid #eff7f5;
-    color: #f1f1f1;
-    padding: 8px 15px;
+    border: 2px solid white;
+    padding: 8px;
     border-radius: 10px;
-    text-decoration: none;
-}
-
-/* CERTIFICATES */
-.certificates {
-    margin-top: 80px;
-    text-align: center;
 }
 
 .cert-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-    margin-top: 30px;
+    gap: 20px;
 }
 
 .cert-card {
     background: rgba(255,255,255,0.05);
-    padding: 15px;
-    border-radius: 10px;
-    transition: 0.3s;
+    padding: 10px;
 }
 
-.cert-card img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.cert-card p {
-    color: white;
-    margin-top: 10px;
-}
-
-.cert-card:hover {
-    transform: scale(1.05);
-}
-
-/* PROJECT PAGE */
-.PR {
-    font-size: 30px;
-    color: white;
-}
-
-.PR1 {
-    margin-top: 50px;
-    color: white;
-}
-
-.PR2 {
-    color: red;
-    text-decoration: none;
-}
-
-.PR3 {
-    font-size: 18px;
+.PR, .PR1, .PR3, .para, .T, .S, .AB {
     color: white;
 }
 
 .PTR {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
-}
-
-/* PROJECT IMAGES */
-.project-images {
-    display: flex;
-    gap: 15px;
-    justify-content: center;
-    flex-wrap: wrap;
 }
 
 .project-images img {
-    width: 100%;
-    max-width: 400px;
-    border-radius: 10px;
+    max-width: 300px;
 }
 
-.project-images img:hover {
-    transform: scale(1.05);
-    transition: 0.3s;
-}
-
-/* BACK BUTTON */
 .back-btn {
-    display: inline-block;
-    margin-bottom: 20px;
-    padding: 8px 16px;
     color: white;
     border: 2px solid white;
-    border-radius: 8px;
-    text-decoration: none;
-    transition: 0.3s;
+    padding: 5px;
 }
 
-.back-btn:hover {
-    background-color: white;
-    color: black;
-}
-
-/* PROFILE LEFT */
 .profile-left {
     position: absolute;
-    top: 30px;
-    left: 30px;
-    text-align: center;
+    top: 20px;
+    left: 20px;
 }
 
 .ph {
-    width: 150px;
-    height: 150px;
+    width: 120px;
     border-radius: 50%;
-    object-fit: cover;
-    border: 4px solid #2c3e50;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 .profile-name {
-    margin-top: 10px;
     color: white;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-/* ABOUT + CONTACT TEXT */
-.para, .T, .S, .AB {
-    color: white;
-}
-
-/* MAP */
-iframe {
-    margin-top: 20px;
-    border-radius: 10px;
-}
-
-/* MOBILE RESPONSIVE */
-@media (max-width: 768px) {
-
-    .navbar {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    .nav_links {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .Mai_part {
-        font-size: 32px;
-    }
-
-    .BMP {
-        font-size: 16px;
-    }
-
-    .cert-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .PTR {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width: 480px) {
-
-    .Mai_part {
-        font-size: 26px;
-    }
-
-    .btn-outline {
-        padding: 6px 10px;
-        font-size: 14px;
-    }
 }
