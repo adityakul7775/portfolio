@@ -333,11 +333,11 @@ section {
     display: flex;
     justify-content: center;
 }
-
 .map-container iframe {
     width: 100%;
     max-width: 900px;
     height: 300px;
-    border-radius: 10px;
-    border: none;
+}
+.glass-container {
+    border: 3px solid red;
 }
