@@ -286,7 +286,7 @@ section {
     font-weight: bold;
 }
 .overlay {
-    background: rgba(0, 0, 0, 0.6); /* black film */
+    background: rgba(0, 0, 0, 0.3); /* black film */
     min-height: 100vh;
     padding: 40px 20px;
 }
