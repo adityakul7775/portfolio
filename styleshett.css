@@ -285,3 +285,8 @@ section {
     font-size: 18px;
     font-weight: bold;
 }
+.overlay {
+    background: rgba(0, 0, 0, 0.6); /* black film */
+    min-height: 100vh;
+    padding: 40px 20px;
+}
