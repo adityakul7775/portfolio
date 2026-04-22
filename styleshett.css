@@ -285,22 +285,59 @@ section {
     font-size: 18px;
     font-weight: bold;
 }
-/* SAME STYLE AS ABOUT PAGE */
-.overlay {
+/* GLASS EFFECT SAME AS ABOUT PAGE */
+.glass-container {
     max-width: 1100px;
-    margin: 40px auto;   /* center horizontally */
+    margin: 40px auto;
     padding: 30px;
-}
-.S {
-    max-width: 700px;
-    margin: 0 auto;      /* centers text block */
-}
-    background: rgba(0, 0, 0, 0.35);  /* light black film (NOT too dark) */
+
+    background: rgba(0, 0, 0, 0.35); /* perfect light dark */
     border-radius: 15px;
 
     box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    color: white;
 }
-. {
-    max-width: 700px;
-    margin: 0 auto;      /* centers text block */
+
+/* BACK BUTTON */
+.back-btn {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 8px 15px;
+    border: 1px solid white;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+}
+
+/* CENTER TEXT */
+.contact-content {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-content p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* HEADING CENTER */
+.glass-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* MAP FIX */
+.map-container {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.map-container iframe {
+    width: 100%;
+    max-width: 900px;
+    height: 300px;
+    border-radius: 10px;
+    border: none;
 }
